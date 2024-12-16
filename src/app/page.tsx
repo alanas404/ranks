@@ -7,16 +7,18 @@ import LoyaltyPointCard from "./components/LoyaltyPointCard";
 import OrderDetails from "./components/OrderDetails";
 import PaymentDetails from "./components/PaymentDetails";
 import OrderItems from "./components/OrderItems";
+import GiftOrderItems from "./components/GiftOrderItems";
 
 export default function Home() {
   return (
     <div className="container  mx-auto px-4 md:p-0">
-       <Order/>
+       {/* <Order/>
        <LoyaltyPoint/> 
        <LoyaltyPointCard/> 
        <OrderDetails/>
        <PaymentDetails/>
-       <OrderItems/>
+       <OrderItems/> */}
+       <GiftOrderItems/>
     </div>
   );
 }
